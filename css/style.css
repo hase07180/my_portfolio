@@ -226,7 +226,7 @@ h3{
 /* メモ：bootstrapだけで実装 */
 .nav-item a{
   /* ナビバー問題① リンクの色を#636363にする */
-  ここに書く
+  color: #636363;
   font-family: 'Varela Round',sans-serif;
 }
 
