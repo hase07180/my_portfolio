@@ -253,30 +253,47 @@ h3 {
 
 /* 左側のプロフィール画像を設定 */
 .about-box__img {
+  min-height: 500px;
+  background-image: url(/images/prof.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* 右側のプロフィール */
 .about-box__text {
+  color: #fff;
+  background-color: #383838;
+  padding: 120px 60px 70px;
 }
 
 /* プロフィールのボックス */
 .about-item {
+  position: relative;
+  margin: 0 0 50px;
 }
 
 /* プロフィールのアイコンを出す */
 .about-item__icon {
+  position: absolute;
+  color: #ff674f;
+  font-size: 32px;
+  top: -20px;
+  left: 0;
 }
 
 /* アイコンの幅分、左側に55pxのpadding */
 .about-item__box {
+  padding-left: 55px;
 }
 
 /* タイトル下の余白15px */
 .about-item__title {
+  margin: 0 0 15px;
 }
 
 /* プロフィール文章 */
 p.about-item__desc {
+  color: #fff;
 }
 
 /* ---------------------------------------------- /*
