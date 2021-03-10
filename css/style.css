@@ -97,14 +97,14 @@ h3{
 #top {
   position        : relative;
   /* トップ問題③ CSSを書く */
-  height          : ここに書く;
-  background-image : ここに書く;
-  background-size: ここに書く;
-  background-position: ここに書く;
+  height          : 100vh;
+  background-image : url('/images/top_bg.jpg');
+  background-size: cover;
+  background-position: center;
    /* トップ問題④ CSSを書く */
-  display        : ここに書く;
-  justify-content: ここに書く;
-  align-items    : ここに書く;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
 }
 
 /* 背景に黒いフィルターをかける */
