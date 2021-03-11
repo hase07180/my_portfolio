@@ -4,11 +4,11 @@
 	$_SESSION["mail"] = $_POST["mail"];
 	// $_SESSION["subject"] = $_POST["subject"];
   $_SESSION["content"] = $_POST["content"];
-  
+
   mb_language("Japanese");
   mb_internal_encoding("UTF-8");
 
-  $to = "test@exemple.com"; //ここのメールアドレスを変更する
+  $to = "yuukisoccer@gmail.com"; //ここのメールアドレスを変更する
   $subject = ”お問い合わせを受信しました”;
   $name = htmlspecialchars($_SESSION['name']);
   $mail = htmlspecialchars($_SESSION['mail']);
