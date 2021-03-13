@@ -13,6 +13,7 @@ $(window).on('load', function () {
   for (var i = 0; i <= $('.typ').children().size(); i++) {
     $('.typ').children('span:eq(' + i + ')').delay(80 * i).animate({ 'opacity': 1 }, 0);
   };
-
-  new WOW().init();
 });
+
+new WOW().init();
+$('#youtube').YTPlayer();
