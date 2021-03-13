@@ -163,6 +163,13 @@ h3 {
   font-weight: 200;
 }
 
+.typ {
+  opacity: 0;
+}
+.typ span {
+  opacity: 0;
+}
+
 /* マウスの動くアイコン*/
 .mouse-icon {
   position: absolute;
